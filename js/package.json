@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "eslint ./src/gilded_rose.js && jasmine"
+  },
+  "author": "Richard LIU <i@richard.zone>",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.12.0",
+    "jasmine": "^2.4.1"
+  }
+}
